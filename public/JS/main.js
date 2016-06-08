@@ -18455,7 +18455,7 @@ module.exports = camelizeStyleName;
  * LICENSE file in the root directory of this source tree. An additional grant
  * of patent rights can be found in the PATENTS file in the same directory.
  *
- *
+ * 
  */
 
 var isTextNode = require('./isTextNode');
@@ -18710,7 +18710,7 @@ module.exports = createNodesFromMarkup;
  * LICENSE file in the root directory of this source tree. An additional grant
  * of patent rights can be found in the PATENTS file in the same directory.
  *
- *
+ * 
  */
 
 function makeEmptyFunction(arg) {
@@ -19275,7 +19275,7 @@ module.exports = mapObject;
  * LICENSE file in the root directory of this source tree. An additional grant
  * of patent rights can be found in the PATENTS file in the same directory.
  *
- *
+ * 
  * @typechecks static-only
  */
 
@@ -19363,7 +19363,7 @@ module.exports = performanceNow;
  * of patent rights can be found in the PATENTS file in the same directory.
  *
  * @typechecks
- *
+ * 
  */
 
 /*eslint-disable no-self-compare */
@@ -19666,7 +19666,7 @@ process.chdir = function (dir) {
 process.umask = function() { return 0; };
 
 },{}],168:[function(require,module,exports){
-var react = require('react');
+var React = require('react');
 var ListItem = require('./ListItem.jsx');
 
 var ingredients = [{ "id": 1, "text": "ham" }, { "id": 2, "text": "Cheese" }, { "id": 3, "text": "pizza" }];
@@ -19689,7 +19689,7 @@ var List = React.createClass({
 module.exports = List;
 
 },{"./ListItem.jsx":169,"react":166}],169:[function(require,module,exports){
-var react = require('react');
+var React = require('react');
 var ListItem = React.createClass({
   displayName: 'ListItem',
 
